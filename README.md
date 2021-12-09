@@ -11,25 +11,25 @@ Vuforia Engine AR version 9.8.8
 
 
 download link:
--https://vuforia-engine@dev.azure.com/vuforia-engine/unity-extension/_git/com.ptc.vuforia.engine
+-          https://vuforia-engine@dev.azure.com/vuforia-engine/unity-extension/_git/com.ptc.vuforia.engine
 
 
 
 Image marker that I’m using:
 
--http://bit.ly/316MZtT
+-          http://bit.ly/316MZtT
 
 
 
 Github Final Build link:
 
 Final Build download link:
--https://github.com/tyohanan/internship-ar-task-ver3.git
+-          https://github.com/tyohanan/internship-ar-task-ver3.git
 
  
 
 Commit process making:
--https://github.com/tyohanan/augmented-reality-intern-ver2.git
+-          https://github.com/tyohanan/augmented-reality-intern-ver2.git
 
 
 
