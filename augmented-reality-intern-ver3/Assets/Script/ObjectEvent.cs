@@ -23,14 +23,13 @@ public class ObjectEvent : MonoBehaviour
 
     void Update(){
         // print(transform.position);
-        print (arutalaLogo.transform.rotation);
-        if (imageDetected || Input.GetKeyDown(KeyCode.C)){
+        // print (arutalaLogo.transform.rotation);
+        if (imageDetected){
             Instantiate(particleObject, transform.position, particlePosition.transform.rotation);
             // particleObject.transform.position = transform.position;
             // particleObject.transform.rotation = particlePosition.transform.rotation;
             imageDetected = false;
         }
-
     }
 
     public void targetDetected(){

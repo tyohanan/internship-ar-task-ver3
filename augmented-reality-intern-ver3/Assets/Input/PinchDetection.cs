@@ -38,7 +38,8 @@ public class PinchDetection : MonoBehaviour
 
     private void Update(){
         currentScale = transform.localScale.x;
-        print(currentScale);
+        // print(currentScale);
+        print(controls.Android.FirstFingerPosition.ReadValue<Vector2>());
     }
 
     IEnumerator ZoomDetection(){
