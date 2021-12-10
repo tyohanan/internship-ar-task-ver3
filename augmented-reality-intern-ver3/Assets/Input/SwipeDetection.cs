@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class SwipeDetection : MonoBehaviour
 {
+
+    [SerializeField]
     private float rotateSpeed = 10f;
     private SwipeAndroid swipeControls;
     private Coroutine swipeCoroutine;
+
     private void Awake(){
             swipeControls = new SwipeAndroid();
     }
@@ -67,7 +70,7 @@ public class SwipeDetection : MonoBehaviour
     }
 
 }
-    // #region Events
+
     // public delegate void StartTouch(Vector2 position, float time);
     // public event StartTouch OnStartEvent;
     // public delegate void EndTouch (Vector2 position, float time);
